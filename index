@@ -1,0 +1,17 @@
+biseLinIP		Calculates the green-up day out of true NDVI values extracted from noisy data by a BISE-algorithm with linear approximation
+biseSpline		Calculates the green-up day out of true NDVI values extracted from noisy data by a BISE-algorithm with spline approximation
+biseDSig		Calculates the green-up day out of true NDVI values extracted from a double sigmoid function fitted to NDVI values as selected by a modified BISE-algorithm
+biseDSigC		Calculates the green-up day out of true NDVI values extracted from a double sigmoid function fitted to NDVI values (with C-Subroutine instead of nls()) as selected by a BISE-algorithm
+biseGauss		Calculates the green-up day out of true NDVI values extracted from a gaussian function fitted to NDVI values as selected by a modified BISE-algorithm
+biseFFT		Calculates the green-up day out of true NDVI values extracted through a fast fourier filter applied to NDVI values as selected by a BISE-algorithm
+biseGrowth		Calculates the green-up day out of true NDVI values extracted from a plant growth function fitted to NDVI values as selected by a BISE-algorithm
+fft.filter		Calculates the green-up day out of true NDVI values extracted through a fast fourier filter applied to NDVI composites
+SavGol 		Calculates the green-up day out of true NDVI values extracted from a Savitzky-Golay function fitted to NDVI composites
+DSig			Calculates the green-up day out of true NDVI values extracted from a double sigmoid function fitted to NDVI composites
+gauss			Calculates the green-up day out of true NDVI values extracted from a gaussian function fitted to NDVI composites
+localThresGreenup	Calculates the green-up day out of fitted NDVI values by a local threshold method
+globalThresGreenup	Calculates the green-up day out of fitted NDVI values by a global threshold method
+date2doy		Converts a date (YYMMDD) into a Julian day
+getDaysCount		Returns the number of days of the year
+analyzeBits		Analyses the bits of a 16-bit integer
+
